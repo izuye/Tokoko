@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    background-color: #ececec;
+    font-family: 'Poppins', sans-serif;
+    color: #2D2D2D;
+    font-size: 16px;
+}
+
+@media screen and (min-width: 994px) {
+    .form-control {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 994px) {
+    .navbar-nav {
+        text-align: center;
+    }
+}
+
+.hover-icon:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+ /*  */ 
+
+ .row-produk {
+     background-color: #fff;
+     margin: 0;
+     padding: 5px;
+     padding-top: 16px;
+ }
+
+ .garis-nama {
+     border-bottom: 2px solid #2D2D2D;
+     margin-top: 10px;
+     margin-bottom: 25px;
+ }
+
+ /*Buton*/
+
+ .btn-custom {
+     padding: 6px;
+     font-size: 12px;
+ }
+
+ /* */
+
+ .anim-icon:hover {
+    transform: scale(1.3);
+    transition: 0.5s;
+}
+
+
+.plus-minus-input {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.plus-minus-input .input-group-field {
+  text-align: center;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  padding: 1rem;
+}
+
+.plus-minus-input .input-group-field::-webkit-inner-spin-button,
+.plus-minus-input .input-group-field ::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+          appearance: none;
+}
+
+.plus-minus-input .input-group-button .circle {
+  border-radius: 50%;
+  padding: 0.25em 0.8em;
+}
